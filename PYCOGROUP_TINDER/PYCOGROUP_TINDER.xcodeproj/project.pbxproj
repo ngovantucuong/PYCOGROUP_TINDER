@@ -15,6 +15,9 @@
 		E8069523250A56DA0050A7C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8069521250A56DA0050A7C6 /* LaunchScreen.storyboard */; };
 		E806952E250A56DA0050A7C6 /* PYCOGROUP_TINDERTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E806952D250A56DA0050A7C6 /* PYCOGROUP_TINDERTests.swift */; };
 		E8069539250A56DA0050A7C6 /* PYCOGROUP_TINDERUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8069538250A56DA0050A7C6 /* PYCOGROUP_TINDERUITests.swift */; };
+		E806954B250A57C60050A7C6 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E806954A250A57C60050A7C6 /* NetworkManager.swift */; };
+		E806954E250A5A600050A7C6 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E806954D250A5A600050A7C6 /* Constants.swift */; };
+		E8069550250A60440050A7C6 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = E806954F250A60440050A7C6 /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		E8069534250A56DA0050A7C6 /* PYCOGROUP_TINDERUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PYCOGROUP_TINDERUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8069538250A56DA0050A7C6 /* PYCOGROUP_TINDERUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PYCOGROUP_TINDERUITests.swift; sourceTree = "<group>"; };
 		E806953A250A56DA0050A7C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E806954A250A57C60050A7C6 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		E806954D250A5A600050A7C6 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		E806954F250A60440050A7C6 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +105,13 @@
 		E8069515250A56D80050A7C6 /* PYCOGROUP_TINDER */ = {
 			isa = PBXGroup;
 			children = (
+				E8069548250A571D0050A7C6 /* Controllers */,
+				E8069547250A57160050A7C6 /* View */,
+				E8069546250A570C0050A7C6 /* Model */,
+				E8069549250A57290050A7C6 /* Networking */,
+				E806954C250A5A480050A7C6 /* Common */,
 				E8069516250A56D80050A7C6 /* AppDelegate.swift */,
 				E8069518250A56D80050A7C6 /* SceneDelegate.swift */,
-				E806951A250A56D80050A7C6 /* ViewController.swift */,
 				E806951C250A56D80050A7C6 /* Main.storyboard */,
 				E806951F250A56DA0050A7C6 /* Assets.xcassets */,
 				E8069521250A56DA0050A7C6 /* LaunchScreen.storyboard */,
@@ -126,6 +136,45 @@
 				E806953A250A56DA0050A7C6 /* Info.plist */,
 			);
 			path = PYCOGROUP_TINDERUITests;
+			sourceTree = "<group>";
+		};
+		E8069546250A570C0050A7C6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E806954F250A60440050A7C6 /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E8069547250A57160050A7C6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E8069548250A571D0050A7C6 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E806951A250A56D80050A7C6 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		E8069549250A57290050A7C6 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				E806954A250A57C60050A7C6 /* NetworkManager.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		E806954C250A5A480050A7C6 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				E806954D250A5A600050A7C6 /* Constants.swift */,
+			);
+			path = Common;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,9 +308,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E806954E250A5A600050A7C6 /* Constants.swift in Sources */,
 				E806951B250A56D80050A7C6 /* ViewController.swift in Sources */,
+				E8069550250A60440050A7C6 /* User.swift in Sources */,
 				E8069517250A56D80050A7C6 /* AppDelegate.swift in Sources */,
 				E8069519250A56D80050A7C6 /* SceneDelegate.swift in Sources */,
+				E806954B250A57C60050A7C6 /* NetworkManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
