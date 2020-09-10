@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E8069517250A56D80050A7C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8069516250A56D80050A7C6 /* AppDelegate.swift */; };
+		E8069519250A56D80050A7C6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8069518250A56D80050A7C6 /* SceneDelegate.swift */; };
+		E806951B250A56D80050A7C6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E806951A250A56D80050A7C6 /* ViewController.swift */; };
+		E806951E250A56D80050A7C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E806951C250A56D80050A7C6 /* Main.storyboard */; };
+		E8069520250A56DA0050A7C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E806951F250A56DA0050A7C6 /* Assets.xcassets */; };
+		E8069523250A56DA0050A7C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8069521250A56DA0050A7C6 /* LaunchScreen.storyboard */; };
+		E806952E250A56DA0050A7C6 /* PYCOGROUP_TINDERTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E806952D250A56DA0050A7C6 /* PYCOGROUP_TINDERTests.swift */; };
+		E8069539250A56DA0050A7C6 /* PYCOGROUP_TINDERUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8069538250A56DA0050A7C6 /* PYCOGROUP_TINDERUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E806952A250A56DA0050A7C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E806950B250A56D80050A7C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E8069512250A56D80050A7C6;
+			remoteInfo = PYCOGROUP_TINDER;
+		};
+		E8069535250A56DA0050A7C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E806950B250A56D80050A7C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E8069512250A56D80050A7C6;
+			remoteInfo = PYCOGROUP_TINDER;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E8069513250A56D80050A7C6 /* PYCOGROUP_TINDER.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PYCOGROUP_TINDER.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8069516250A56D80050A7C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E8069518250A56D80050A7C6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E806951A250A56D80050A7C6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E806951D250A56D80050A7C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E806951F250A56DA0050A7C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E8069522250A56DA0050A7C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E8069524250A56DA0050A7C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8069529250A56DA0050A7C6 /* PYCOGROUP_TINDERTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PYCOGROUP_TINDERTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E806952D250A56DA0050A7C6 /* PYCOGROUP_TINDERTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PYCOGROUP_TINDERTests.swift; sourceTree = "<group>"; };
+		E806952F250A56DA0050A7C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8069534250A56DA0050A7C6 /* PYCOGROUP_TINDERUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PYCOGROUP_TINDERUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8069538250A56DA0050A7C6 /* PYCOGROUP_TINDERUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PYCOGROUP_TINDERUITests.swift; sourceTree = "<group>"; };
+		E806953A250A56DA0050A7C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E8069510250A56D80050A7C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8069526250A56DA0050A7C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8069531250A56DA0050A7C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E806950A250A56D80050A7C6 = {
+			isa = PBXGroup;
+			children = (
+				E8069515250A56D80050A7C6 /* PYCOGROUP_TINDER */,
+				E806952C250A56DA0050A7C6 /* PYCOGROUP_TINDERTests */,
+				E8069537250A56DA0050A7C6 /* PYCOGROUP_TINDERUITests */,
+				E8069514250A56D80050A7C6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E8069514250A56D80050A7C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E8069513250A56D80050A7C6 /* PYCOGROUP_TINDER.app */,
+				E8069529250A56DA0050A7C6 /* PYCOGROUP_TINDERTests.xctest */,
+				E8069534250A56DA0050A7C6 /* PYCOGROUP_TINDERUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E8069515250A56D80050A7C6 /* PYCOGROUP_TINDER */ = {
+			isa = PBXGroup;
+			children = (
+				E8069516250A56D80050A7C6 /* AppDelegate.swift */,
+				E8069518250A56D80050A7C6 /* SceneDelegate.swift */,
+				E806951A250A56D80050A7C6 /* ViewController.swift */,
+				E806951C250A56D80050A7C6 /* Main.storyboard */,
+				E806951F250A56DA0050A7C6 /* Assets.xcassets */,
+				E8069521250A56DA0050A7C6 /* LaunchScreen.storyboard */,
+				E8069524250A56DA0050A7C6 /* Info.plist */,
+			);
+			path = PYCOGROUP_TINDER;
+			sourceTree = "<group>";
+		};
+		E806952C250A56DA0050A7C6 /* PYCOGROUP_TINDERTests */ = {
+			isa = PBXGroup;
+			children = (
+				E806952D250A56DA0050A7C6 /* PYCOGROUP_TINDERTests.swift */,
+				E806952F250A56DA0050A7C6 /* Info.plist */,
+			);
+			path = PYCOGROUP_TINDERTests;
+			sourceTree = "<group>";
+		};
+		E8069537250A56DA0050A7C6 /* PYCOGROUP_TINDERUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E8069538250A56DA0050A7C6 /* PYCOGROUP_TINDERUITests.swift */,
+				E806953A250A56DA0050A7C6 /* Info.plist */,
+			);
+			path = PYCOGROUP_TINDERUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E8069512250A56D80050A7C6 /* PYCOGROUP_TINDER */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E806953D250A56DA0050A7C6 /* Build configuration list for PBXNativeTarget "PYCOGROUP_TINDER" */;
+			buildPhases = (
+				E806950F250A56D80050A7C6 /* Sources */,
+				E8069510250A56D80050A7C6 /* Frameworks */,
+				E8069511250A56D80050A7C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PYCOGROUP_TINDER;
+			productName = PYCOGROUP_TINDER;
+			productReference = E8069513250A56D80050A7C6 /* PYCOGROUP_TINDER.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E8069528250A56DA0050A7C6 /* PYCOGROUP_TINDERTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8069540250A56DA0050A7C6 /* Build configuration list for PBXNativeTarget "PYCOGROUP_TINDERTests" */;
+			buildPhases = (
+				E8069525250A56DA0050A7C6 /* Sources */,
+				E8069526250A56DA0050A7C6 /* Frameworks */,
+				E8069527250A56DA0050A7C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E806952B250A56DA0050A7C6 /* PBXTargetDependency */,
+			);
+			name = PYCOGROUP_TINDERTests;
+			productName = PYCOGROUP_TINDERTests;
+			productReference = E8069529250A56DA0050A7C6 /* PYCOGROUP_TINDERTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E8069533250A56DA0050A7C6 /* PYCOGROUP_TINDERUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8069543250A56DA0050A7C6 /* Build configuration list for PBXNativeTarget "PYCOGROUP_TINDERUITests" */;
+			buildPhases = (
+				E8069530250A56DA0050A7C6 /* Sources */,
+				E8069531250A56DA0050A7C6 /* Frameworks */,
+				E8069532250A56DA0050A7C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E8069536250A56DA0050A7C6 /* PBXTargetDependency */,
+			);
+			name = PYCOGROUP_TINDERUITests;
+			productName = PYCOGROUP_TINDERUITests;
+			productReference = E8069534250A56DA0050A7C6 /* PYCOGROUP_TINDERUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E806950B250A56D80050A7C6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = ngovantucuong;
+				TargetAttributes = {
+					E8069512250A56D80050A7C6 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					E8069528250A56DA0050A7C6 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = E8069512250A56D80050A7C6;
+					};
+					E8069533250A56DA0050A7C6 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = E8069512250A56D80050A7C6;
+					};
+				};
+			};
+			buildConfigurationList = E806950E250A56D80050A7C6 /* Build configuration list for PBXProject "PYCOGROUP_TINDER" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E806950A250A56D80050A7C6;
+			productRefGroup = E8069514250A56D80050A7C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E8069512250A56D80050A7C6 /* PYCOGROUP_TINDER */,
+				E8069528250A56DA0050A7C6 /* PYCOGROUP_TINDERTests */,
+				E8069533250A56DA0050A7C6 /* PYCOGROUP_TINDERUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E8069511250A56D80050A7C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8069523250A56DA0050A7C6 /* LaunchScreen.storyboard in Resources */,
+				E8069520250A56DA0050A7C6 /* Assets.xcassets in Resources */,
+				E806951E250A56D80050A7C6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8069527250A56DA0050A7C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8069532250A56DA0050A7C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E806950F250A56D80050A7C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E806951B250A56D80050A7C6 /* ViewController.swift in Sources */,
+				E8069517250A56D80050A7C6 /* AppDelegate.swift in Sources */,
+				E8069519250A56D80050A7C6 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8069525250A56DA0050A7C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E806952E250A56DA0050A7C6 /* PYCOGROUP_TINDERTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8069530250A56DA0050A7C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8069539250A56DA0050A7C6 /* PYCOGROUP_TINDERUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E806952B250A56DA0050A7C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E8069512250A56D80050A7C6 /* PYCOGROUP_TINDER */;
+			targetProxy = E806952A250A56DA0050A7C6 /* PBXContainerItemProxy */;
+		};
+		E8069536250A56DA0050A7C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E8069512250A56D80050A7C6 /* PYCOGROUP_TINDER */;
+			targetProxy = E8069535250A56DA0050A7C6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E806951C250A56D80050A7C6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E806951D250A56D80050A7C6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E8069521250A56DA0050A7C6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E8069522250A56DA0050A7C6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E806953B250A56DA0050A7C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E806953C250A56DA0050A7C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E806953E250A56DA0050A7C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VE76Z49SVP;
+				INFOPLIST_FILE = PYCOGROUP_TINDER/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ngovantucuong.PYCOGROUP-TINDER";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E806953F250A56DA0050A7C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VE76Z49SVP;
+				INFOPLIST_FILE = PYCOGROUP_TINDER/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ngovantucuong.PYCOGROUP-TINDER";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E8069541250A56DA0050A7C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VE76Z49SVP;
+				INFOPLIST_FILE = PYCOGROUP_TINDERTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ngovantucuong.PYCOGROUP-TINDERTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PYCOGROUP_TINDER.app/PYCOGROUP_TINDER";
+			};
+			name = Debug;
+		};
+		E8069542250A56DA0050A7C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VE76Z49SVP;
+				INFOPLIST_FILE = PYCOGROUP_TINDERTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ngovantucuong.PYCOGROUP-TINDERTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PYCOGROUP_TINDER.app/PYCOGROUP_TINDER";
+			};
+			name = Release;
+		};
+		E8069544250A56DA0050A7C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VE76Z49SVP;
+				INFOPLIST_FILE = PYCOGROUP_TINDERUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ngovantucuong.PYCOGROUP-TINDERUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PYCOGROUP_TINDER;
+			};
+			name = Debug;
+		};
+		E8069545250A56DA0050A7C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VE76Z49SVP;
+				INFOPLIST_FILE = PYCOGROUP_TINDERUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ngovantucuong.PYCOGROUP-TINDERUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PYCOGROUP_TINDER;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E806950E250A56D80050A7C6 /* Build configuration list for PBXProject "PYCOGROUP_TINDER" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E806953B250A56DA0050A7C6 /* Debug */,
+				E806953C250A56DA0050A7C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E806953D250A56DA0050A7C6 /* Build configuration list for PBXNativeTarget "PYCOGROUP_TINDER" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E806953E250A56DA0050A7C6 /* Debug */,
+				E806953F250A56DA0050A7C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8069540250A56DA0050A7C6 /* Build configuration list for PBXNativeTarget "PYCOGROUP_TINDERTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8069541250A56DA0050A7C6 /* Debug */,
+				E8069542250A56DA0050A7C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8069543250A56DA0050A7C6 /* Build configuration list for PBXNativeTarget "PYCOGROUP_TINDERUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8069544250A56DA0050A7C6 /* Debug */,
+				E8069545250A56DA0050A7C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E806950B250A56D80050A7C6 /* Project object */;
+}
