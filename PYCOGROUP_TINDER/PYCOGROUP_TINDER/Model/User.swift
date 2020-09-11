@@ -9,29 +9,29 @@
 import Foundation
 
 struct Results: Codable {
-    private let results: [User]
+    let results: [User]
 }
 
 struct User: Codable {
-    private let gender: String?
-    private let name: Name?
-    private let location: Location?
-    private let phone: String?
-    private let picture: Picture?
+    let gender: String?
+    let name: Name?
+    let location: Location?
+    let phone: String?
+    let picture: Picture?
 }
 
 struct Name: Codable {
-    private let first: String?
-    private let last: String?
+    let first: String?
+    let last: String?
 }
 
 struct Location: Codable {
-    private let city: String?
-    private let state: String?
+    let city: String?
+    let state: String?
 }
 
 struct Picture: Codable {
-    private let large: String?
-    private let medium: String?
-    private let thumbnail: String?
+    let large: String?
+    let medium: String?
+    let thumbnail: String?
 }

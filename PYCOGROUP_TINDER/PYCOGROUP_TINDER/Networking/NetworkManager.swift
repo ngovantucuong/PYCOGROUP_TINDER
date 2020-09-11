@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-typealias result = (_ data: Results) -> Void
+typealias result = (_ data: [User]) -> Void
 
 class NetworkManager {
     static let shared = NetworkManager(baseURL: URL(string: URL_GET_DATA))
@@ -33,7 +33,7 @@ class NetworkManager {
             do {
                 guard let data = data else { return }
                 let values = try JSONDecoder().decode(Results.self, from: data)
-                completion(values)
+                completion(values.results)
             } catch let error {
                 print(error)
             }
