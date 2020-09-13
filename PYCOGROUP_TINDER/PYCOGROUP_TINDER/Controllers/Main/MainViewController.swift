@@ -14,11 +14,19 @@ class MainViewController: UIViewController {
     
     // MARK: - Properties
     var dataUser: [User] = [User]()
+    private let activityIndicator: UIActivityIndicatorView = {
+        var actInd = UIActivityIndicatorView()
+        actInd.translatesAutoresizingMaskIntoConstraints = false
+        actInd.hidesWhenStopped = true
+        actInd.style = .large
+        return actInd
+    }()
     
     // MARK: - Life cycle
     override func viewDidLoad() {
         super.viewDidLoad()
-        title = "PYCOGROUP TINDER"
+        
+        setupUI()
         getApiData()
     }
     
@@ -34,11 +42,22 @@ class MainViewController: UIViewController {
     }
     
     // MARK: - Private function
+    private func setupUI() {
+        title = "PYCOGROUP TINDER"
+        view.addSubview(activityIndicator)
+        activityIndicator.leadingAnchor.constraint(equalTo: view.leadingAnchor).isActive = true
+        activityIndicator.trailingAnchor.constraint(equalTo: view.trailingAnchor).isActive = true
+        activityIndicator.bottomAnchor.constraint(equalTo: view.bottomAnchor).isActive = true
+        activityIndicator.topAnchor.constraint(equalTo: view.topAnchor).isActive = true
+    }
+    
     private func getApiData() {
+        activityIndicator.startAnimating()
         NetworkManager.shared.getData { [weak self] data in
             guard let sSelf = self else { return }
             sSelf.dataUser = data
             DispatchQueue.main.async {
+                sSelf.activityIndicator.stopAnimating()
                 sSelf.addCardView(data: data)
             }
         }
