@@ -220,19 +220,17 @@ class CardView: UIView {
     @objc func handlePanGesture(gesture: UIPanGestureRecognizer) {
         let translation = gesture.translation(in: self)
         
-        let LIMIT_VALUE_MOVE: Int = 130
+        let LIMIT_VALUE_MOVE: Int = 140
         switch gesture.state {
         case .changed:
             let valueMove = abs(translation.x)
-            print(valueMove)
             if (Int(valueMove) > LIMIT_VALUE_MOVE) {
                 if (translation.x > 0) {
                     delegate?.didAddUserFavorite(dataUser: dataUserCardView)
                 }
-                
                 removeFromSuperview()
             }
-            let angle = translation.x / 30 * .pi / 180
+            let angle = translation.x / 20 * .pi / 180
             self.transform = CGAffineTransform(rotationAngle: angle).concatenating(CGAffineTransform(translationX: translation.x, y: 0))
         case .ended:
             UIView.animate(withDuration: 0.5, delay: 0, usingSpringWithDamping: 0.5, initialSpringVelocity: 0.5, options: .curveEaseInOut, animations: {

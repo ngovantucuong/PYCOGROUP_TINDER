@@ -46,6 +46,7 @@ class MainViewController: UIViewController {
     
     
     private func addCardView(data: [User]) {
+        let countLimitUser: Bool = data.count >= 3
         data.enumerated().forEach { (index, user) in
             let cardView = CardView()
             cardView.delegate = self
@@ -54,9 +55,13 @@ class MainViewController: UIViewController {
             mainView.insertSubview(cardView, at: 0)
             
             // Constraint
+            var constantBottomContraint: CGFloat = 0.0
+            if (countLimitUser && index == data.count - 2 || index == data.count - 3 ) {
+                constantBottomContraint = index == data.count - 2 ? 6.0 : 3.0
+            }
             cardView.leadingAnchor.constraint(equalTo: mainView.leadingAnchor).isActive = true
             cardView.trailingAnchor.constraint(equalTo: mainView.trailingAnchor).isActive = true
-            cardView.bottomAnchor.constraint(equalTo: mainView.bottomAnchor).isActive = true
+            cardView.bottomAnchor.constraint(equalTo: mainView.bottomAnchor, constant: constantBottomContraint).isActive = true
             cardView.topAnchor.constraint(equalTo: mainView.topAnchor).isActive = true
         }
     }
