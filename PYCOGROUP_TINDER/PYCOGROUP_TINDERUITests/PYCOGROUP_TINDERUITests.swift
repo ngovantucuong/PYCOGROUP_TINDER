@@ -15,6 +15,8 @@ class PYCOGROUP_TINDERUITests: XCTestCase {
 
         // In UI tests it is usually best to stop immediately when a failure occurs.
         continueAfterFailure = false
+        let app = XCUIApplication()
+        app.launch()
 
         // In UI tests it’s important to set the initial state - such as interface orientation - required for your tests before they run. The setUp method is a good place to do this.
     }
@@ -25,11 +27,16 @@ class PYCOGROUP_TINDERUITests: XCTestCase {
 
     func testExample() {
         // UI tests must launch the application that they test.
-        let app = XCUIApplication()
-        app.launch()
+        
+       
 
         // Use recording to get started writing UI tests.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
+    }
+    
+    func testUI() {
+        
+                        
     }
 
     func testLaunchPerformance() {

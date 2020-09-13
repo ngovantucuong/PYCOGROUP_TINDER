@@ -3,13 +3,15 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F0CFF691DDBCA12015BFA12 /* Pods_PYCOGROUP_TINDERTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 343F8F3D4F11CE11061C78A5 /* Pods_PYCOGROUP_TINDERTests.framework */; };
+		426A80B142D259E3A1656657 /* Pods_PYCOGROUP_TINDER.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A0C413EA06A06A370FC233D /* Pods_PYCOGROUP_TINDER.framework */; };
+		9277433FD5BA00C7A3D12893 /* Pods_PYCOGROUP_TINDER_PYCOGROUP_TINDERUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED777AFF1F4220344395EBD6 /* Pods_PYCOGROUP_TINDER_PYCOGROUP_TINDERUITests.framework */; };
 		E8069517250A56D80050A7C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8069516250A56D80050A7C6 /* AppDelegate.swift */; };
 		E8069519250A56D80050A7C6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8069518250A56D80050A7C6 /* SceneDelegate.swift */; };
-		E806951B250A56D80050A7C6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E806951A250A56D80050A7C6 /* ViewController.swift */; };
 		E806951E250A56D80050A7C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E806951C250A56D80050A7C6 /* Main.storyboard */; };
 		E8069520250A56DA0050A7C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E806951F250A56DA0050A7C6 /* Assets.xcassets */; };
 		E8069523250A56DA0050A7C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8069521250A56DA0050A7C6 /* LaunchScreen.storyboard */; };
@@ -20,6 +22,14 @@
 		E8069550250A60440050A7C6 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = E806954F250A60440050A7C6 /* User.swift */; };
 		E8069552250A6A1D0050A7C6 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8069551250A6A1D0050A7C6 /* MainViewController.swift */; };
 		E8069556250A6B2C0050A7C6 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8069555250A6B2C0050A7C6 /* CardView.swift */; };
+		E87B8B20250DDC6E00DB1649 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E806951C250A56D80050A7C6 /* Main.storyboard */; };
+		E87B8B21250DDC7100DB1649 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E806951C250A56D80050A7C6 /* Main.storyboard */; };
+		E8808370250C6A3D0088EFC4 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E880836F250C6A3D0088EFC4 /* UIColor+Extension.swift */; };
+		E8808373250CD3E00088EFC4 /* UserRealm.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8808372250CD3E00088EFC4 /* UserRealm.swift */; };
+		E8808376250CD6450088EFC4 /* DBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8808375250CD6450088EFC4 /* DBManager.swift */; };
+		E8808378250CDC310088EFC4 /* MyFavoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8808377250CDC310088EFC4 /* MyFavoriteViewController.swift */; };
+		E880837D250CDD390088EFC4 /* MyFavoriteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E880837B250CDD390088EFC4 /* MyFavoriteCell.swift */; };
+		E880837E250CDD390088EFC4 /* MyFavoriteCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E880837C250CDD390088EFC4 /* MyFavoriteCell.xib */; };
 		E8906A50250BAED20050C613 /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8906A4F250BAED20050C613 /* UIImageView+Extension.swift */; };
 /* End PBXBuildFile section */
 
@@ -41,10 +51,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1750D5CDE060F078141A7274 /* Pods-PYCOGROUP_TINDER-PYCOGROUP_TINDERUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PYCOGROUP_TINDER-PYCOGROUP_TINDERUITests.debug.xcconfig"; path = "Target Support Files/Pods-PYCOGROUP_TINDER-PYCOGROUP_TINDERUITests/Pods-PYCOGROUP_TINDER-PYCOGROUP_TINDERUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		290BE770E038339AB61375D4 /* Pods-PYCOGROUP_TINDER.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PYCOGROUP_TINDER.release.xcconfig"; path = "Target Support Files/Pods-PYCOGROUP_TINDER/Pods-PYCOGROUP_TINDER.release.xcconfig"; sourceTree = "<group>"; };
+		343F8F3D4F11CE11061C78A5 /* Pods_PYCOGROUP_TINDERTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PYCOGROUP_TINDERTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		61B9AB0F2C5471B622F48421 /* Pods-PYCOGROUP_TINDER-PYCOGROUP_TINDERUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PYCOGROUP_TINDER-PYCOGROUP_TINDERUITests.release.xcconfig"; path = "Target Support Files/Pods-PYCOGROUP_TINDER-PYCOGROUP_TINDERUITests/Pods-PYCOGROUP_TINDER-PYCOGROUP_TINDERUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6A0C413EA06A06A370FC233D /* Pods_PYCOGROUP_TINDER.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PYCOGROUP_TINDER.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D443B6FA725957EA6EE498F /* Pods-PYCOGROUP_TINDERTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PYCOGROUP_TINDERTests.release.xcconfig"; path = "Target Support Files/Pods-PYCOGROUP_TINDERTests/Pods-PYCOGROUP_TINDERTests.release.xcconfig"; sourceTree = "<group>"; };
+		B1DE607A0A1C525B0B8EA184 /* Pods-PYCOGROUP_TINDERTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PYCOGROUP_TINDERTests.debug.xcconfig"; path = "Target Support Files/Pods-PYCOGROUP_TINDERTests/Pods-PYCOGROUP_TINDERTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E508B698CCC2E5134C86C8A3 /* Pods-PYCOGROUP_TINDER.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PYCOGROUP_TINDER.debug.xcconfig"; path = "Target Support Files/Pods-PYCOGROUP_TINDER/Pods-PYCOGROUP_TINDER.debug.xcconfig"; sourceTree = "<group>"; };
 		E8069513250A56D80050A7C6 /* PYCOGROUP_TINDER.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PYCOGROUP_TINDER.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8069516250A56D80050A7C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E8069518250A56D80050A7C6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E806951A250A56D80050A7C6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E806951D250A56D80050A7C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E806951F250A56DA0050A7C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E8069522250A56DA0050A7C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -60,7 +77,14 @@
 		E806954F250A60440050A7C6 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		E8069551250A6A1D0050A7C6 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		E8069555250A6B2C0050A7C6 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		E880836F250C6A3D0088EFC4 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		E8808372250CD3E00088EFC4 /* UserRealm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRealm.swift; sourceTree = "<group>"; };
+		E8808375250CD6450088EFC4 /* DBManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBManager.swift; sourceTree = "<group>"; };
+		E8808377250CDC310088EFC4 /* MyFavoriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFavoriteViewController.swift; sourceTree = "<group>"; };
+		E880837B250CDD390088EFC4 /* MyFavoriteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFavoriteCell.swift; sourceTree = "<group>"; };
+		E880837C250CDD390088EFC4 /* MyFavoriteCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyFavoriteCell.xib; sourceTree = "<group>"; };
 		E8906A4F250BAED20050C613 /* UIImageView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
+		ED777AFF1F4220344395EBD6 /* Pods_PYCOGROUP_TINDER_PYCOGROUP_TINDERUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PYCOGROUP_TINDER_PYCOGROUP_TINDERUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				426A80B142D259E3A1656657 /* Pods_PYCOGROUP_TINDER.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F0CFF691DDBCA12015BFA12 /* Pods_PYCOGROUP_TINDERTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,12 +108,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9277433FD5BA00C7A3D12893 /* Pods_PYCOGROUP_TINDER_PYCOGROUP_TINDERUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E06B385B6E57AA19E854F6C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E508B698CCC2E5134C86C8A3 /* Pods-PYCOGROUP_TINDER.debug.xcconfig */,
+				290BE770E038339AB61375D4 /* Pods-PYCOGROUP_TINDER.release.xcconfig */,
+				1750D5CDE060F078141A7274 /* Pods-PYCOGROUP_TINDER-PYCOGROUP_TINDERUITests.debug.xcconfig */,
+				61B9AB0F2C5471B622F48421 /* Pods-PYCOGROUP_TINDER-PYCOGROUP_TINDERUITests.release.xcconfig */,
+				B1DE607A0A1C525B0B8EA184 /* Pods-PYCOGROUP_TINDERTests.debug.xcconfig */,
+				8D443B6FA725957EA6EE498F /* Pods-PYCOGROUP_TINDERTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BADB82527AAED48DC6054CCB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6A0C413EA06A06A370FC233D /* Pods_PYCOGROUP_TINDER.framework */,
+				ED777AFF1F4220344395EBD6 /* Pods_PYCOGROUP_TINDER_PYCOGROUP_TINDERUITests.framework */,
+				343F8F3D4F11CE11061C78A5 /* Pods_PYCOGROUP_TINDERTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E806950A250A56D80050A7C6 = {
 			isa = PBXGroup;
 			children = (
@@ -95,6 +145,8 @@
 				E806952C250A56DA0050A7C6 /* PYCOGROUP_TINDERTests */,
 				E8069537250A56DA0050A7C6 /* PYCOGROUP_TINDERUITests */,
 				E8069514250A56D80050A7C6 /* Products */,
+				0E06B385B6E57AA19E854F6C /* Pods */,
+				BADB82527AAED48DC6054CCB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -116,6 +168,7 @@
 				E8069548250A571D0050A7C6 /* Controllers */,
 				E8069547250A57160050A7C6 /* View */,
 				E8069546250A570C0050A7C6 /* Model */,
+				E8808374250CD4A70088EFC4 /* Manager */,
 				E8069549250A57290050A7C6 /* Networking */,
 				E806954C250A5A480050A7C6 /* Common */,
 				E806951F250A56DA0050A7C6 /* Assets.xcassets */,
@@ -146,6 +199,7 @@
 		E8069546250A570C0050A7C6 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				E8808371250CD3CB0088EFC4 /* ModelRealm */,
 				E806954F250A60440050A7C6 /* User.swift */,
 			);
 			path = Model;
@@ -162,8 +216,8 @@
 		E8069548250A571D0050A7C6 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				E806951A250A56D80050A7C6 /* ViewController.swift */,
-				E8069551250A6A1D0050A7C6 /* MainViewController.swift */,
+				E880837A250CDD100088EFC4 /* Main */,
+				E8808379250CDCFD0088EFC4 /* MyFavorite */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -194,10 +248,45 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		E8808371250CD3CB0088EFC4 /* ModelRealm */ = {
+			isa = PBXGroup;
+			children = (
+				E8808372250CD3E00088EFC4 /* UserRealm.swift */,
+			);
+			path = ModelRealm;
+			sourceTree = "<group>";
+		};
+		E8808374250CD4A70088EFC4 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				E8808375250CD6450088EFC4 /* DBManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		E8808379250CDCFD0088EFC4 /* MyFavorite */ = {
+			isa = PBXGroup;
+			children = (
+				E8808377250CDC310088EFC4 /* MyFavoriteViewController.swift */,
+				E880837B250CDD390088EFC4 /* MyFavoriteCell.swift */,
+				E880837C250CDD390088EFC4 /* MyFavoriteCell.xib */,
+			);
+			path = MyFavorite;
+			sourceTree = "<group>";
+		};
+		E880837A250CDD100088EFC4 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				E8069551250A6A1D0050A7C6 /* MainViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
 		E8906A4E250BAEBB0050C613 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
 				E8906A4F250BAED20050C613 /* UIImageView+Extension.swift */,
+				E880836F250C6A3D0088EFC4 /* UIColor+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -209,9 +298,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E806953D250A56DA0050A7C6 /* Build configuration list for PBXNativeTarget "PYCOGROUP_TINDER" */;
 			buildPhases = (
+				7FC3FD1DF13A7FF4A0F7EEAE /* [CP] Check Pods Manifest.lock */,
 				E806950F250A56D80050A7C6 /* Sources */,
 				E8069510250A56D80050A7C6 /* Frameworks */,
 				E8069511250A56D80050A7C6 /* Resources */,
+				A6B76F76652C8A0509E9BB79 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -226,6 +317,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E8069540250A56DA0050A7C6 /* Build configuration list for PBXNativeTarget "PYCOGROUP_TINDERTests" */;
 			buildPhases = (
+				7D8F8C1EECFD83ECE8572E92 /* [CP] Check Pods Manifest.lock */,
 				E8069525250A56DA0050A7C6 /* Sources */,
 				E8069526250A56DA0050A7C6 /* Frameworks */,
 				E8069527250A56DA0050A7C6 /* Resources */,
@@ -244,9 +336,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E8069543250A56DA0050A7C6 /* Build configuration list for PBXNativeTarget "PYCOGROUP_TINDERUITests" */;
 			buildPhases = (
+				EE37877E321F822F88D3A589 /* [CP] Check Pods Manifest.lock */,
 				E8069530250A56DA0050A7C6 /* Sources */,
 				E8069531250A56DA0050A7C6 /* Frameworks */,
 				E8069532250A56DA0050A7C6 /* Resources */,
+				68AEB426F5803D218A6FCC22 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -307,6 +401,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E8069523250A56DA0050A7C6 /* LaunchScreen.storyboard in Resources */,
+				E880837E250CDD390088EFC4 /* MyFavoriteCell.xib in Resources */,
 				E8069520250A56DA0050A7C6 /* Assets.xcassets in Resources */,
 				E806951E250A56D80050A7C6 /* Main.storyboard in Resources */,
 			);
@@ -316,6 +411,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E87B8B21250DDC7100DB1649 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,25 +419,133 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E87B8B20250DDC6E00DB1649 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		68AEB426F5803D218A6FCC22 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PYCOGROUP_TINDER-PYCOGROUP_TINDERUITests/Pods-PYCOGROUP_TINDER-PYCOGROUP_TINDERUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PYCOGROUP_TINDER-PYCOGROUP_TINDERUITests/Pods-PYCOGROUP_TINDER-PYCOGROUP_TINDERUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PYCOGROUP_TINDER-PYCOGROUP_TINDERUITests/Pods-PYCOGROUP_TINDER-PYCOGROUP_TINDERUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D8F8C1EECFD83ECE8572E92 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PYCOGROUP_TINDERTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7FC3FD1DF13A7FF4A0F7EEAE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PYCOGROUP_TINDER-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A6B76F76652C8A0509E9BB79 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PYCOGROUP_TINDER/Pods-PYCOGROUP_TINDER-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PYCOGROUP_TINDER/Pods-PYCOGROUP_TINDER-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PYCOGROUP_TINDER/Pods-PYCOGROUP_TINDER-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE37877E321F822F88D3A589 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PYCOGROUP_TINDER-PYCOGROUP_TINDERUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E806950F250A56D80050A7C6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E880837D250CDD390088EFC4 /* MyFavoriteCell.swift in Sources */,
+				E8808373250CD3E00088EFC4 /* UserRealm.swift in Sources */,
 				E8069552250A6A1D0050A7C6 /* MainViewController.swift in Sources */,
 				E806954E250A5A600050A7C6 /* Constants.swift in Sources */,
-				E806951B250A56D80050A7C6 /* ViewController.swift in Sources */,
+				E8808378250CDC310088EFC4 /* MyFavoriteViewController.swift in Sources */,
 				E8906A50250BAED20050C613 /* UIImageView+Extension.swift in Sources */,
 				E8069550250A60440050A7C6 /* User.swift in Sources */,
 				E8069556250A6B2C0050A7C6 /* CardView.swift in Sources */,
+				E8808376250CD6450088EFC4 /* DBManager.swift in Sources */,
 				E8069517250A56D80050A7C6 /* AppDelegate.swift in Sources */,
 				E8069519250A56D80050A7C6 /* SceneDelegate.swift in Sources */,
 				E806954B250A57C60050A7C6 /* NetworkManager.swift in Sources */,
+				E8808370250C6A3D0088EFC4 /* UIColor+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -512,6 +716,7 @@
 		};
 		E806953E250A56DA0050A7C6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E508B698CCC2E5134C86C8A3 /* Pods-PYCOGROUP_TINDER.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -530,6 +735,7 @@
 		};
 		E806953F250A56DA0050A7C6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 290BE770E038339AB61375D4 /* Pods-PYCOGROUP_TINDER.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -548,6 +754,7 @@
 		};
 		E8069541250A56DA0050A7C6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1DE607A0A1C525B0B8EA184 /* Pods-PYCOGROUP_TINDERTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -570,6 +777,7 @@
 		};
 		E8069542250A56DA0050A7C6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D443B6FA725957EA6EE498F /* Pods-PYCOGROUP_TINDERTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -592,6 +800,7 @@
 		};
 		E8069544250A56DA0050A7C6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1750D5CDE060F078141A7274 /* Pods-PYCOGROUP_TINDER-PYCOGROUP_TINDERUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -612,6 +821,7 @@
 		};
 		E8069545250A56DA0050A7C6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61B9AB0F2C5471B622F48421 /* Pods-PYCOGROUP_TINDER-PYCOGROUP_TINDERUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

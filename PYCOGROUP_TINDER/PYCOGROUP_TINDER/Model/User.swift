@@ -18,6 +18,8 @@ struct User: Codable {
     let location: Location?
     let phone: String?
     let picture: Picture?
+    let dob: Dob?
+    let email: String?
 }
 
 struct Name: Codable {
@@ -35,3 +37,9 @@ struct Picture: Codable {
     let medium: String?
     let thumbnail: String?
 }
+
+struct Dob: Codable {
+    let date: String?
+    let age: Int?
+}
+
